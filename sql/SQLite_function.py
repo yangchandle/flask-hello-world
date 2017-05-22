@@ -19,7 +19,7 @@ with sqlite3.connect("new.db") as connection:
 		c.execute(values)
 		
 		# fetchone() retrieves one reord from the query 
-		results = c.fethchone()
+		results = c.fetchone()
 		
 		# output the result to sreen
 		print(keys + ":", results[0])
