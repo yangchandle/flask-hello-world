@@ -11,8 +11,8 @@ cursor = conn.cursor()
 
 try:
 	# insert data
-	cursor.execute("INSERT INTO populations VALUES('New York City', 'NY', 8400000)")
-	cursor.execute("INSERT INTO populations VALUES('San Francisco', 'CA', 800000)")
+	cursor.execute("INSERT INTO population VALUES('New York City', 'NY', 8400000)")
+	cursor.execute("INSERT INTO population VALUES('San Francisco', 'CA', 800000)")
 
 	# commit the changes
 	conn.commit()
