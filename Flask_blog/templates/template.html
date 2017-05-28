@@ -5,9 +5,9 @@
 	</head>
 	<body>
 		<div class="container">
-			<!--{% for message in get_flashed_messages() %}
+			{% for message in get_flashed_messages() %}
 				<div class="flash">{{ message }}</div>
-			{% endfor %} -->
+			{% endfor %}
 			{% if error %}
 				<p class="error"><strong>Error:</strong>{{ error}}</p>
 			{% endif %}
