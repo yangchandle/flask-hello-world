@@ -14,7 +14,7 @@ USERNAME = 'admin'
 PASSWORD = 'admin'
 SECRET_KEY = 'hard_to_guess'
 
-app = Flask(__name__)
+app = Flask(__name__,static_url_path='/static')
 
 # pulls in app configuration by looking for UPPERCASE varibles
 app.config.from_object(__name__)
